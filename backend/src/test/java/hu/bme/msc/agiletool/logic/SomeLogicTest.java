@@ -1,5 +1,6 @@
-package hu.bme.msc.agiletool;
+package hu.bme.msc.agiletool.logic;
 
+import hu.bme.msc.agiletool.logic.SomeLogic;
 import org.junit.Assert;
 import org.junit.Test;
 
