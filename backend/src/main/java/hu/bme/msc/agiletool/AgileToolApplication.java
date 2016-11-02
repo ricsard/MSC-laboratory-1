@@ -7,6 +7,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class AgileToolApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(AgileToolApplication.class, args);
+		SpringApplication.run(AgileToolApplication.class, args); //NOSONAR
 	}
 }
