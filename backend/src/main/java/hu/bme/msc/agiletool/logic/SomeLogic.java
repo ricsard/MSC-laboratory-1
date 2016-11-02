@@ -1,4 +1,4 @@
-package hu.bme.msc.agiletool;
+package hu.bme.msc.agiletool.logic;
 
 /**
  * Created by Ricsard on 2016. 11. 02..

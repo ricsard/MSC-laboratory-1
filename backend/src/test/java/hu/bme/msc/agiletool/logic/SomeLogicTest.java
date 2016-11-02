@@ -12,6 +12,7 @@ public class SomeLogicTest {
     @Test
     public void testMultiply() {
         SomeLogic someLogic = new SomeLogic(2, 5);
+        
         Assert.assertEquals(someLogic.multiply(), 10);
     }
 }
