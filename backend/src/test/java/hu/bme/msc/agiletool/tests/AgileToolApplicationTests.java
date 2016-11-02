@@ -1,4 +1,4 @@
-package hu.bme.msc.agiletool;
+package hu.bme.msc.agiletool.tests;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
