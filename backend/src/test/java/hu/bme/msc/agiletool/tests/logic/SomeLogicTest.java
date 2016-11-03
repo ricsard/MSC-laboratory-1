@@ -4,9 +4,6 @@ import hu.bme.msc.agiletool.logic.SomeLogic;
 import org.junit.Assert;
 import org.junit.Test;
 
-/**
- * Created by Ricsard on 2016. 11. 02..
- */
 public class SomeLogicTest {
 
     @Test

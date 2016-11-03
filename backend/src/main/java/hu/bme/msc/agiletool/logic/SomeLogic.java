@@ -1,8 +1,5 @@
 package hu.bme.msc.agiletool.logic;
 
-/**
- * Created by Ricsard on 2016. 11. 02..
- */
 public class SomeLogic {
 
     private int a;
@@ -16,4 +13,5 @@ public class SomeLogic {
     public int multiply() {
         return a*b;
     }
+
 }
