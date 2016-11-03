@@ -14,4 +14,6 @@ public class SomeLogic {
         return a*b;
     }
 
+    public int addition() { return a+b; }
+
 }

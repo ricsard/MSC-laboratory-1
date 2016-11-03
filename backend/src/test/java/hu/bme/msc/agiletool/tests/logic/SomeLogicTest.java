@@ -12,4 +12,11 @@ public class SomeLogicTest {
 
         Assert.assertEquals(someLogic.multiply(), 10);
     }
+
+    @Test
+    public void testAddition() {
+        SomeLogic someLogic = new SomeLogic(2, 5);
+
+        Assert.assertEquals(someLogic.addition(), 7);
+    }
 }
