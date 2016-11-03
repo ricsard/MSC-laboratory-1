@@ -16,4 +16,6 @@ public class SomeLogic {
 
     public int addition() { return a+b; }
 
+    public double division() { return a/b; }
+
 }
