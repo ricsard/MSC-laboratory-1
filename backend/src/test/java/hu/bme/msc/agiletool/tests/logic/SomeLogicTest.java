@@ -20,10 +20,10 @@ public class SomeLogicTest {
         Assert.assertEquals(someLogic.addition(), 7);
     }
 
-    @Test
+    @Test(expected = ArithmeticException.class)
     public void testDivision() {
         SomeLogic someLogic = new SomeLogic(2, 0);
 
-        Assert.assertEquals(someLogic.addition(), 0);
+        someLogic.division();
     }
 }
