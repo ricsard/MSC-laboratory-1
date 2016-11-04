@@ -11,7 +11,7 @@ buildscript {
 	}
 }
 
-group = 'buildmesite'
+group = 'localhost:5000'
 
 apply plugin: 'java'
 apply plugin: 'eclipse'
