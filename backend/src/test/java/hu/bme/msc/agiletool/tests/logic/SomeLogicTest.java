@@ -28,10 +28,10 @@ public class SomeLogicTest {
     }
 
     @Test
-    public void testDivision2() {
-        SomeLogic someLogic = new SomeLogic(2, 2);
+    public void testAddition2() {
+        SomeLogic someLogic = new SomeLogic(5, 5);
 
-        Assert.assertEquals(someLogic.division(), 1);
+        Assert.assertEquals(someLogic.addition(), 10);
     }
 
 }
