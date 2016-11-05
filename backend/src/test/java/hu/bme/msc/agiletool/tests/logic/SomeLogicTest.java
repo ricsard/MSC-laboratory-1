@@ -84,8 +84,8 @@ public class SomeLogicTest {
     }
     @Test
     public void testAddition10() {
-        SomeLogic someLogic = new SomeLogic(5, 5);
+        SomeLogic someLogic = new SomeLogic(4, 4);
 
-        Assert.assertEquals(someLogic.addition(), 10);
+        Assert.assertEquals(someLogic.addition(), 8);
     }
 }
