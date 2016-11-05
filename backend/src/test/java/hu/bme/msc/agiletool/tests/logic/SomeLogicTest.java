@@ -47,4 +47,11 @@ public class SomeLogicTest {
 
         Assert.assertEquals(someLogic.addition(), 10);
     }
+
+    @Test
+    public void testAddition5() {
+        SomeLogic someLogic = new SomeLogic(5, 5);
+
+        Assert.assertEquals(someLogic.addition(), 10);
+    }
 }
