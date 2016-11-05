@@ -40,5 +40,4 @@ public class SomeLogicTest {
 
         Assert.assertEquals(someLogic.addition(), 10);
     }
-
 }
