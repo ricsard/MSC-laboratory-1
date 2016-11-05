@@ -26,4 +26,11 @@ public class SomeLogicTest {
 
         someLogic.division();
     }
+
+    @Test
+    public void testDivision2() {
+        SomeLogic someLogic = new SomeLogic(2, 2);
+
+        Assert.assertEquals(someLogic.division(), 1);
+    }
 }
