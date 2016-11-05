@@ -33,4 +33,5 @@ public class SomeLogicTest {
 
         Assert.assertEquals(someLogic.division(), 1);
     }
+
 }
